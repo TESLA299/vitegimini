@@ -50,7 +50,7 @@ chat_form.addEventListener("submit", async (event) => {
     chatDiv.innerHTML = `
     <div class="w-full">
     <div class=" w-full flex justify-end items-center mb-6">
-    <h1 class=" text-lg font-normal text-white border-2 border-r-gray-400 pr-5">
+    <h1 class=" text-lg font-normal text-white border-r-2 border-r-gray-400 pr-5">
     ${chat_text.value}
     </h1>
     </div>
